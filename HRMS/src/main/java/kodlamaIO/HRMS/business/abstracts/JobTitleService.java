@@ -6,4 +6,5 @@ import kodlamaIO.HRMS.entities.concretes.JobTitle;
 
 public interface JobTitleService {
 	List<JobTitle> getAll();
+	List<JobTitle> findByTitleIs();
 }

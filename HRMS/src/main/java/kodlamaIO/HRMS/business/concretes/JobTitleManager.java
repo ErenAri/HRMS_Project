@@ -24,4 +24,10 @@ public class JobTitleManager implements JobTitleService{
 		return this.jobTitleDao.findAll();
 	}
 
+	@Override
+	public List<JobTitle> findByTitleIs() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
